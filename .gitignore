@@ -1,0 +1,16 @@
+# Virtualenv
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Open Library dumps and anything derived from them (multi-GB)
+dataset/*.gz
+dataset/*.txt
+dataset/test/*
+!dataset/test/.gitkeep
+sample_data.json
